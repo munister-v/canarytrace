@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "canarytrace: canary-oracle fuzzing for data-minimising projections and analytics sinks"
+version: 0.1.0
+date-released: 2026-11-03
+license: MIT
+authors:
+  - family-names: Munister
+    given-names: Viacheslav
+    affiliation: "State Tax University, Irpin, Ukraine"
+    email: viacheslav.munister@dpu.edu.ua
+keywords:
+  - privacy
+  - data minimisation
+  - learning analytics
+  - telemetry
+  - fuzzing
+  - mutation testing
+references:
+  - type: article
+    title: "Default-Deny by Construction: A Two-Channel Sensing Layer for Behaviour Analytics on an Interactive Teaching Board"
+    authors:
+      - family-names: Munister
+        given-names: Viacheslav
+    year: 2026
+    doi: 10.5281/zenodo.23897129

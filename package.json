@@ -1,0 +1,44 @@
+{
+  "name": "canarytrace",
+  "version": "0.1.0",
+  "description": "Canary-oracle fuzzing and mutation analysis for data-minimising projections and analytics sinks",
+  "main": "src/index.js",
+  "bin": {
+    "canarytrace": "bin/canarytrace.js"
+  },
+  "files": [
+    "src",
+    "bin",
+    "examples",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "example:gradebook": "node bin/canarytrace.js run examples/gradebook/campaign.js",
+    "example:board": "node bin/canarytrace.js run examples/teaching-board/campaign.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "peerDependencies": {
+    "pg": "^8.11.0"
+  },
+  "peerDependenciesMeta": {
+    "pg": {
+      "optional": true
+    }
+  },
+  "keywords": [
+    "privacy",
+    "data minimisation",
+    "learning analytics",
+    "telemetry",
+    "fuzzing",
+    "test oracle",
+    "mutation testing"
+  ],
+  "author": "Viacheslav Munister",
+  "license": "MIT"
+}
